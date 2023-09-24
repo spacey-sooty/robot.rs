@@ -8,8 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: dtolnay/rust-toolchain@stable
-      - name: Add rustfmt
-        run: rustup component add rustfmt
       - uses: mbrobbel/rustfmt-check@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
