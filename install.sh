@@ -1,4 +1,4 @@
-#!bin/bash
+#!bin/sh
 git clone https://github.com/wpilibsuite/allwpilib.git
 
 mv allwpilib/ntcore wpilib-hal/libs/ntcore
